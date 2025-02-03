@@ -4,7 +4,6 @@ import gdown
 import os
 
 #Loading the traioned model:
-@st.cache_resource
 def load_word2vec():
     model_url="https://drive.google.com/file/d/1NXe6o5kEluV86RWO7nEV5WUQnS6u6_EV/view?usp=sharing"
     model_file="word2vec_model.model"
