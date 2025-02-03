@@ -7,7 +7,7 @@ import os
 def load_word2vec():
     model_url="https://drive.google.com/uc?id=1NXe6o5kEluV86RWO7nEV5WUQnS6u6_EV"
 
-    if not os.path.exists(model_file):
+    if not os.path.exists(model_url):
         gdown.download(model_url, quiet=False)
 
     # Load the model
