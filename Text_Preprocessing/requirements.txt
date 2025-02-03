@@ -1,2 +1,6 @@
 streamlit
 gensim
+gdown
+numpy
+scipy
+smart-open
