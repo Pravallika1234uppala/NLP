@@ -1,5 +1,5 @@
 streamlit
-gensim
+gensim==4.0.0
 gdown
 numpy
 scipy
