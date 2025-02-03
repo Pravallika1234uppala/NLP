@@ -12,7 +12,7 @@ def load_word2vec():
         gdown.download(model_url, model_file, quiet=False)
 
     # Load the model
-    return KeyedVectors.load_word2vec_format(model_file, binary=True)
+    return KeyedVectors.load(model_file)
 
 model = load_word2vec()
 
