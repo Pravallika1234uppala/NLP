@@ -1,6 +1,10 @@
-streamlit
-gensim==4.0.0
-gdown
-numpy
-scipy
-smart-open
+streamlit==1.22.0        # Ensure compatibility with your Streamlit app version
+gensim==4.0.0            # The specific version of gensim you're using
+rich>=10.14.0            # For improved exception logging in Streamlit
+gdown                    # To download the model from Google Drive
+numpy>=1.21.0            # For handling arrays and numerical operations
+scipy>=1.7.0             # For scientific computations and optimization
+smart-open>=5.0.0        # For reading and writing data streams
+pandas>=1.3.0            # For data manipulation (if you're using dataframes in your app)
+tensorflow>=2.6.0        # If you're using any TensorFlow models
+scikit-learn>=0.24.0     # If you're working with machine learning models
