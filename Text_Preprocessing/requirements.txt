@@ -2,6 +2,7 @@ streamlit==1.41.1        # Ensure compatibility with your Streamlit app version
 gensim==4.3.2            # The specific version of gensim you're using
 rich==13.9.4
 gdown
+nltk==3.9.1
 numpy==1.26.4
 scipy==1.10.0
 smart-open==5.2.1
