@@ -1,7 +1,12 @@
 import streamlit as st
 import gensim
 import gensim.downloader as api
+import nltk
 from nltk.corpus import wordnet
+
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
 
 model = api.load('glove-wiki-gigaword-100')
 
@@ -52,4 +57,3 @@ if input_word:
             st.write(f"{wrd}")
     else:
         st.write("Antonyms not found.")
-
