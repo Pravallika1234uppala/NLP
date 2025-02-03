@@ -1,5 +1,7 @@
 streamlit==1.22.0        # Ensure compatibility with your Streamlit app version
 gensim==4.0.0            # The specific version of gensim you're using
+setuptools>=57.5.0
+wheel
 rich>=10.14.0            # For improved exception logging in Streamlit
 gdown                    # To download the model from Google Drive
 numpy>=1.21.0            # For handling arrays and numerical operations
