@@ -6,13 +6,12 @@ import os
 #Loading the traioned model:
 def load_word2vec():
     model_url="https://drive.google.com/uc?id=1NXe6o5kEluV86RWO7nEV5WUQnS6u6_EV"
-    model_file="word2vec_model.model"
 
     if not os.path.exists(model_file):
-        gdown.download(model_url, model_file, quiet=False)
+        gdown.download(model_url, quiet=False)
 
     # Load the model
-    return KeyedVectors.load_word2vec_format(model_file, binary=True)
+    return KeyedVectors.load_word2vec_format(model_url, binary=True)
 
 model = load_word2vec()
 
