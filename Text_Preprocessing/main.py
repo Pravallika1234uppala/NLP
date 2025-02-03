@@ -5,7 +5,7 @@ import os
 
 #Loading the traioned model:
 def load_word2vec():
-    model_url="https://drive.google.com/file/d/1NXe6o5kEluV86RWO7nEV5WUQnS6u6_EV/view?usp=sharing"
+    model_url="https://drive.google.com/uc?id=1NXe6o5kEluV86RWO7nEV5WUQnS6u6_EV"
     model_file="word2vec_model.model"
 
     if not os.path.exists(model_file):
